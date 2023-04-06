@@ -119,7 +119,7 @@ h1 {
 }
 .side-bar {
     margin-top: 64px;
-    width: 272px;
+    width: 270px;
 }
 .new-post-blocks {
     display: flex;
@@ -176,9 +176,12 @@ h1 {
     font: 14px OpenSans-bold;
 
 }
-.search-form {
+.search-post {
+    display: flex;
     margin-top: 60px;
-
+}
+.search-form {
+    width: 82.3%;
 }
 ::placeholder {
     padding-left: 19px;
@@ -194,7 +197,8 @@ h1 {
     border: none;
 }
 .search-button {
-    ba
+    width: 17.7%;
+    background-image: url("");
 }
 
 .subscribe-form{

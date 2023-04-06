@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="/css/css.css">
+    <link rel="stylesheet" type="text/css" href="/mq-dip/css/css.css">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
@@ -237,15 +238,21 @@
                 </div>
             </div>
         </div>
-        <form class="search-form">
+        <div class="search-post">
+            <form class="search-form">
             <input class="search" type="text"  placeholder="Найти...">
         </form>
-        <button class="search-button" type="button">
-        <form class="subscribe-form">
+            </form>
+            <button class="search-button" type="button">
+            </button>
+        </div>
+        <div class="subscribe-form">
             <h3 class="subscribe-h3">Рассылка</h3>
-            <input class="subscribe-mail" type="text"  placeholder="Ваш email-адрес">
-            <input class="subscribe-button" type="submit" placeholder="Подписаться">
-        </form>
+            <form class="subscribe-form-input">
+                <input class="subscribe-mail" type="text"  placeholder="Ваш email-адрес">
+                <input class="subscribe-button" type="submit" placeholder="Подписаться">
+            </form>
+        </div>
     </aside>
 
 </main>
