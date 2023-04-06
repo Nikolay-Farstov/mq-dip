@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    font-style: normal;
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+}
+@font-face {
+    font-family: "OpenSans-bold";
+    font-style: normal;
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+}
+header {
+
+}
+.main-header {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 450px;
+    width: 100%;
+}
+main {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.menu {
+    display: flex;
+    float: right;
+}
+.menu-list {
+    display: inline-flex;
+    list-style-type: none;
+
+}
+.menu-point {
+}
+.menu-point:nth-child(1n+1) {
+
+}
+h1 {
+    width: 1200px;
+    margin margin: 0 auto
+}
+.post {
+    height: 295px;
+    margin-top: 64px;
+    margin-right: 120px;
+    display: flex;
+}
+.post-img {
+    height: 295px;
+    width: 380px;
+}
+.post:nth-of-type(1) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg");
+
+}
+.post:nth-of-type(2) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg");
+
+}
+.post:nth-of-type(3) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg");
+
+}
+.post:nth-of-type(4) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg");
+
+}
+.post:nth-of-type(5) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg");
+    background-repeat: no-repeat;
+}
+.post:nth-of-type(6) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg");
+    background-repeat: no-repeat;
+}
+.post:nth-of-type(7) .post-img {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg");
+    background-repeat: no-repeat;
+}
+.article-content {
+    margin-left: 30px;
+    width: 367px;
+    height: 295px;
+}
+.post-tags {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    padding-left: 0;
+    font: 14px "OpenSans-bold";
+    color: #b59f5b;
+}
+.post-tag {
+    margin-right: 20px;
+}
+.post-info {
+    display: flex;
+}
+.post-date {
+    font: 12px OpenSans-Regular;
+    margin-right: 15px;
+}
+.post-author {
+    font: 12px OpenSans-bold;
+}
+.post-content {
+    margin-top: 55px;
+}
+.h2-posts {
+    font: 20px OpenSans-bold;
+    margin-top: 15px;
+
+}
+.side-bar {
+    margin-top: 64px;
+    width: 272px;
+}
+.new-post-blocks {
+    display: flex;
+    flex-direction: column;
+}
+.new-posts-header {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 24px;
+    margin-right: 15px;
+    font: 14px "OpenSans-bold";
+    color: #888888;
+}
+.new-post {
+
+    margin-top: 22px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.new-post-img {
+    height: 70px;
+    width: 70px;
+    float:left;
+}
+.new-post:nth-of-type(1) .new-post-img {
+    background: url("https://netology-code.github.io/html-2-diploma/sources/images/2.jpg");
+    background-repeat: no-repeat;
+}
+.new-post:nth-of-type(2) .new-post-img {
+    background: url("https://netology-code.github.io/html-2-diploma/sources/images/7.jpg");
+    background-repeat: no-repeat;
+}
+.new-post:nth-of-type(3) .new-post-img {
+    background: url("https://netology-code.github.io/html-2-diploma/sources/images/45.jpg");
+    background-repeat: no-repeat;
+}
+.new-post:nth-of-type(4) .new-post-img {
+    background: url("https://netology-code.github.io/html-2-diploma/sources/images/151.jpg");
+    background-repeat: no-repeat;
+}
+.new-post:nth-of-type(5) .new-post-img {
+    background: url("https://netology-code.github.io/html-2-diploma/sources/images/501.jpg");
+    background-repeat: no-repeat;
+}
+.new-post-content {
+    width: 182px;
+    float:right;
+}
+.new-post-data {
+    color: #888888;
+    font: 12px "OpenSans-Regular";
+}
+.new-post-title {
+    font: 14px OpenSans-bold;
+
+}
+.search-form {
+    margin-top: 60px;
+
+}
+::placeholder {
+    padding-left: 19px;
+    color: #a2a4a3;
+}
+
+.search {
+    width: 100%;
+    height: 47px;
+    box-sizing: content-box;
+    padding: 0;
+    background-color: #f4f7f6;
+    border: none;
+}
+.search-button {
+    ba
+}
+
+.subscribe-form{
+    margin-top: 62px;
+}
+.subscribe-h3 {
+    text-align: center;
+}
+.subscribe-mail, .subscribe-button {
+    box-sizing: content-box;
+    width: 100%;
+    height: 47px;
+    width: 100%;
+    padding: 0;
+    margin-top: 23px;
+}
+.subscribe-mail {
+    background-color: #f4f7f6;
+    border: none;
+}
+.search, .subscribe-mail{
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/search.svg") ;
+    background-repeat: no-repeat;
+    float: right;
+}
+::placeholder {
+    padding-left: 19px;
+    color: #a2a4a3;
+}
+.subscribe-button {
+    margin-top: 18px;
+}
