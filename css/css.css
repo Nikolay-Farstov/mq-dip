@@ -13,8 +13,6 @@ body {
     font-style: normal;
     src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
 }
- {
-}
 .main-header {
     background: url("./../images/banner-bg.jpg") rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
@@ -23,15 +21,9 @@ body {
     height: 450px;
     width: 100%;
 }
-
 .header-body {
     max-width: 1200px;
     margin: auto;
-}
-main {
-    max-width: 1200px;
-    margin: auto;
-
 }
 .logo {
     margin-top: 28px;
@@ -57,6 +49,64 @@ h1 {
     width: 100%;
     margin: auto;
     text-align: center;
+}
+.trends {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:
+
+}
+.trends-h2 {
+text-align: center;
+}
+.trends-slider {
+    display: flex;
+}
+.trend {
+    display: block;
+    width: calc(25% - 4px);
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trend:nth-child(1) {
+    background-image: url("./../images/trend1.jpg");
+}
+.trend:nth-child(2) {
+    background-image: url("./../images/trend2.jpg");
+}
+.trend:nth-child(3) {
+    background-image: url("./../images/trend3.jpg");
+}
+.trend:nth-child(4) {
+    background-image: url("./../images/trend4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.trend:nth-child(1n+1) {
+    margin-left: 5px;
+}
+.trend-content {
+
+}
+
+.trend-tag {
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    padding-left: 0;
+    font: 14px "OpenSans-bold";
+    color: #b59f5b;
+}
+.main {
+
+    max-width: 1200px;
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
 }
 .post {
     height: 295px;
@@ -109,7 +159,7 @@ h1 {
     font: 14px "OpenSans-bold";
     color: #b59f5b;
 }
-.post-tag {
+.tag {
     margin-right: 20px;
 }
 .post-info {
@@ -200,7 +250,6 @@ h1 {
     padding-left: 19px;
     color: #a2a4a3;
 }
-
 .search {
     width: 100%;
     height: 47px;
@@ -211,9 +260,8 @@ h1 {
 }
 .search-button {
     width: 17.7%;
-    background-image: url("");
+    background-image: url("./../svg/search.svg");
 }
-
 .subscribe-form{
     margin-top: 62px;
 }
