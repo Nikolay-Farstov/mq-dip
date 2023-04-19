@@ -20,10 +20,12 @@ body {
     background-blend-mode: multiply;
     height: 450px;
     width: 100%;
-
+    display: flex;
+    flex-direction: column;
 }
 h1 {
-    display: inline-block;
+    margin: auto;
+    text-align: center;
     color: white;
     font-size: 45px;
     font-family: OpenSans-bold;
@@ -31,7 +33,9 @@ h1 {
 
 .header-body {
     max-width: 1200px;
-    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .logo {
     margin-top: 28px;
@@ -278,7 +282,6 @@ h1 {
     background-size: 18px ;
     background-position: center;
     background-repeat: no-repeat;
-
     background-color: #b59f5b;
 }
 .subscribe-form{
@@ -322,9 +325,13 @@ h1 {
 .products{
     display: flex;
     justify-content: space-around;
+
 }
 .product {
     width: 300px;
+    height: 438px;
+
+
 }
 .product-photo{
     height: 200px;
@@ -337,5 +344,42 @@ h1 {
 }
 .product:nth-child(3) .product-photo {
     background-image: url("./../images/shop-item-desk3.jpg");
+}
+.product-content {
+    border: 3px solid #b59f5b;
+
+    z-index: 1;
+    padding: -20px -20px 0 -20px;
+
+}
+
+footer {
+    margin-top: 65px;
+
+}
+.socials {
+    width: 100%;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f7f6;
+}
+.social {
+    height: 20px;
+    width: 20px;
+}
+.socials .social:nth-of-type(1)  {
+    background-image: url("./../svg/001-dribbble.svg");
+    background-repeat: no-repeat;
+}
+.socials .social:nth-of-type(2)  {
+    background-image: url("./../svg/001-pinterest.svg");
+}
+.socials .social:nth-of-type(3)  {
+    background-image: url("./../svg/004-twitter.svg");
+}
+.socials .social:nth-of-type(1n+1) {
+    margin-left: 30px;
 }
 
