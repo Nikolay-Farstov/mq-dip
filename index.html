@@ -2,11 +2,34 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="./css/css.css">
-
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
 </head>
 <body>
+<form class="pop-up" >
+
+    <div class="pop-up-form">
+        <h2 class="h2-pop-up h2_border">Ваш фидбек</h2>
+        <span class="pop-up_text">Как часто вы заходите на наш сайт?</span>
+        <select>
+           <option>Почти каждый день</option>
+           <option>Никогда</option>
+        </select>
+        <div class="pop_up_subscribe">
+            <span class="pop-up_text">Вы подписаны на e-mail рассылку?</span>
+            <input class="sub-chk" id="da_sub_chk" type="radio" name="sub-chk" value="da"/>
+            <label for="da_sub_chk"><img src="">Да</label>
+            <input class="sub-chk" id="net_sub_chk" type="radio" name="sub-chk" value="net"/>
+            <label for="net_sub_chk"><img src="">Нет</label>
+        </div>
+        <div class="pop-up_textarea">
+            <span class="pop-up_text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <textarea name="comment" rows="8" cols="30">Может, больше рецептов?</textarea>
+            <input class="submitFidback" type="submit" name="submitcomment" value="отправить">
+        </div>
+    </div>
+</form>
 <header class="main-header">
     <div class="header-body">
         <img class="logo" src="svg/noemi-logo.svg" alt="логотип сайта" border=”0”>
@@ -20,7 +43,11 @@
                <li class="nav-point">Контакты</li>
             </ul>
         </div>
-
+        <div class="burger">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
     </div>
     <h1>Блог о творчестве, спорте, и образе жизни</h1>
 </header>
@@ -69,7 +96,7 @@
 <main class="main">
     <section class="posts">
         <article class="post">
-            <div class="post-img"></div>
+            <img class="post-img" src="./images/last-post1.jpg"></img>
             <div class="article-content">
                 <header>
                     <ul class="post-tags">
@@ -269,12 +296,12 @@
         <div class="theme-serch">
             <h2 class="h2-theme h2_border">Темы</h2>
             <div  class="themes">
-                <div class="theme">Красота <sub>12</sub></div>
-                <div  class="theme">Здоровье <sub>4</sub></div>
-                <div  class="theme">Образ жизни <sub>145</sub></div>
-                <div  class="theme">Музыка <sub>28</sub></div>
-                <div  class="theme">Спорт <sub>62</sub></div>
-                <div  class="theme">Йога <sub>8</sub></div>
+                <div class="theme">Красота <sup>12</sup></div>
+                <div  class="theme">Здоровье <sup>4</sup></div>
+                <div  class="theme">Образ жизни <sup>145</sup></div>
+                <div  class="theme">Музыка <sup>28</sup></div>
+                <div  class="theme">Спорт <sup>62</sup></div>
+                <div  class="theme">Йога <sup>8</sup></div>
             </ul>
         </div>
     </aside>
