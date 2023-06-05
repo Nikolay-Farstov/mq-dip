@@ -29,29 +29,39 @@ h1 {
     color: white;
     font-size: 45px;
     font-family: OpenSans-bold;
+    max-width: 660px;
 }
 .header-body {
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 .logo {
-    margin-top: 40px;
+
     width: 178px;
 }
 .nav {
     text-transform: uppercase;
     display: flex;
     float: right;
-    margin-top: 40px;
     color: white;
+
 }
 .nav-list {
+    margin: auto;
+    padding: 0;
     display: inline-flex;
     list-style-type: none;
     font-family: OpenSans-Regular;
     font-size: 13pt;
+    text-decoration: none;
+
+}
+.nav-list a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .nav-point:nth-child(1n+1) {
     margin-left: 34px;
@@ -112,14 +122,20 @@ h1 {
 .trend-tag {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 0;
     padding-left: 0;
     font: 14px "OpenSans-bold";
+
+}
+.trend-tag a {
+    text-decoration: none;
     color: #b59f5b;
 }
 .trend-h2 {
     color: white;
     text-transform: uppercase;
+    font-family: OpenSans-bold;
 }
 .main {
     max-width: 1200px;
@@ -167,9 +183,14 @@ h1 {
 .post-tags {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 0;
     padding-left: 0;
     font: 14px "OpenSans-bold";
+    color: #b59f5b;
+}
+.post-tags a {
+    text-decoration: none;
     color: #b59f5b;
 }
 .tag {
@@ -251,6 +272,7 @@ h1 {
     font: 12px "OpenSans-Regular";
 }
 .new-post-title {
+    text-transform: uppercase;
     font: 14px OpenSans-bold;
 
 }
@@ -548,6 +570,41 @@ footer {
     font-family: OpenSans-bold;
 
 
+}
+.h-link a {
+    text-decoration: none;
+    color: black;
+}
+.h-link-w a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    font-family: OpenSans-Regular;
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
+
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+img:after {
+    content: "\f1c5" " " attr(alt);
+
+    font-size: 16px;
+    font-family: OpenSans-Regular;
+    color: rgb(100, 100, 100);
+
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
 }
 
 
